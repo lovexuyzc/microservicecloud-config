@@ -1,4 +1,4 @@
-﻿spring:
+spring:
   profiles:
     active:
     - dev
@@ -16,7 +16,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+      defaultZone: http://eureka-dev.com:7001/eruka/
    
 ---
 server:
@@ -29,6 +29,6 @@ spring:
 
 eureka:
   client:
-     service-url:
-       defaultZone: http://eureka-test.com:7001/eureka/
+    service-url:
+      defaultZone: http://eureka-test.com:7001/eruka/
    
